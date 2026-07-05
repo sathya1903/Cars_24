@@ -1,0 +1,19 @@
+{
+  "algorithm": "XGBRegressor",
+  "hyperparameters": {
+    "n_estimators": 500,
+    "max_depth": 6,
+    "learning_rate": 0.1,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "n_training_rows": 19820,
+  "n_features": 56,
+  "target": "selling_price (INR lakhs)",
+  "held_out_test_metrics": {
+    "r2": 0.9572,
+    "mae": 0.6662,
+    "rmse": 1.0172,
+    "note": "measured on 20% split in train_experiments.py before retraining on 100% of data"
+  }
+}
